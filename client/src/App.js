@@ -10,7 +10,7 @@ function App() {
       <Toaster position="top-center"></Toaster>
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/editor/:id " element={<EditorPage />}></Route>
+        <Route path="/editor/:roomId" element={<EditorPage />}></Route>
       </Routes>
     </div>
   );
